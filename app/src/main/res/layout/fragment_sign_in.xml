@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Reg_fragments.SignIn"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:gravity="center">
+    <ProgressBar
+        android:id="@+id/progress_bar"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="20dp"
+        android:visibility="gone"/>
+    <LinearLayout
+        android:id="@+id/codeSentPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="5">
+        <com.hbb20.CountryCodePicker
+            android:id="@+id/ccpsignin"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="2"
+            app:ccp_countryPreference="BN"
+            app:ccp_defaultNameCode="BD">
+        </com.hbb20.CountryCodePicker>
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/phoneTIL"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:layout_weight="3">
+            <EditText
+                android:id="@+id/phoneET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:textColor="#ba68c8"
+                android:hint="1XXXXXXXXX"/>
+        </android.support.design.widget.TextInputLayout>
+    </LinearLayout>
+
+
+
+
+    <Button
+        android:id="@+id/signupBT"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Send Code"
+        android:background="@android:color/holo_purple"
+        android:textColor="@android:color/white"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/verifyPanel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/codeTIL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp">
+            <EditText
+                android:id="@+id/codeET"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Code"
+                android:inputType="numberDecimal"/>
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/verifyBTS"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="2"
+            android:orientation="horizontal"
+            >
+            <Button
+                android:id="@+id/verifyBT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Verify"
+                android:background="@color/colorPrimary"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"/>
+            <Button
+                android:id="@+id/resendCodeBT"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Resend Code"
+                android:background="@android:color/holo_purple"
+                android:layout_margin="5dp"
+                android:textColor="@android:color/white"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <TextView
+        android:id="@+id/newAccountTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:textAlignment="center"
+        android:textColor="#ba68c8"
+        android:singleLine="true"
+        android:layout_marginTop="15dp"
+        android:text="Create New Account"/>
+
+
+    <TextView
+        android:id="@+id/errorshowTV"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/colorAccent"
+        android:gravity="end" />
+
+</LinearLayout>

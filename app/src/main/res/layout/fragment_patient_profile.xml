@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="vertical"
+    android:padding="10dp"
+    android:background="@color/colorSeconday">
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardElevation="6dp"
+        app:cardCornerRadius="10dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/nameTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/black"
+                android:textColor="@android:color/white"
+                android:text="Mr. Aziz"
+                android:textSize="25dp"
+                android:paddingTop="10dp"
+                android:paddingLeft="20dp"
+                android:paddingRight="20dp"
+                android:elevation="6dp"
+                android:gravity="center"
+                android:paddingBottom="8dp"
+                android:layout_marginBottom="20dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:paddingTop="5dp"
+                android:weightSum="2">
+                <TextView
+                    android:id="@+id/ageTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Age : 60"
+                    android:singleLine="true"
+                    android:textSize="16sp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:id="@+id/weightTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Weight : 50 KG"
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Other Details "
+                    android:textSize="25dp"
+                    android:gravity="center"
+                    android:paddingTop="15dp"
+                    android:singleLine="true"
+                    android:paddingBottom="8dp"/>
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colorSecondayDark"
+                    android:layout_marginBottom="10dp"/>
+
+                <TextView
+                    android:id="@+id/fatherNameTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Father Name: "
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    />
+                <TextView
+                    android:id="@+id/motherNameET"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Mother name : "
+                    android:textSize="16sp"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    />
+
+                <TextView
+                    android:id="@+id/phoneTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
+                    android:editable="true"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+                <TextView
+                    android:id="@+id/bloodGroupTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Blood Group : A+"
+                    android:textSize="18sp"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+                <TextView
+                    android:id="@+id/genderTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Gender  : Male"
+                    android:textSize="18sp"
+                    android:singleLine="true"
+                    android:padding="10dp"/>
+                <TextView
+                    android:id="@+id/addressTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Prsent Address : "
+                    android:textSize="18sp"
+                    android:padding="10dp"/>
+                <TextView
+                    android:id="@+id/permanantAddressTV"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Permanant Address : "
+                    android:textSize="18sp"
+                    android:padding="10dp"/>
+
+            </LinearLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Problems"
+                android:textSize="20sp"
+                android:textColor="@color/colorAccent"
+                android:textStyle="bold"
+                />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colorAccent"
+                android:layout_marginBottom="10dp"/>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/problemsRC"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layoutManager="android.support.v7.widget.LinearLayoutManager"
+                tools:listitem="@layout/problem_raw"
+                android:padding="10dp"/>
+
+            <TextView
+                android:id="@+id/addProblemTV"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:textStyle="bold"
+                android:textAlignment="center"
+                android:textColor="@android:color/white"
+                android:background="@color/colorAccent"
+                android:drawableLeft="@drawable/add_icon"
+                android:drawablePadding="20dp"
+                android:textSize="20sp"
+                android:text="Add Problem"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="2"
+                android:padding="5dp"
+                android:layout_marginTop="20dp">
+
+                <Button
+                    android:id="@+id/editProfileBT"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Edit Profile"
+                    android:drawablePadding="30dp"
+                    android:background="@android:color/holo_blue_dark"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:drawableLeft="@android:drawable/ic_menu_edit"/>
+                <Button
+                    android:id="@+id/userDeleteBT"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Delete Profile"
+                    android:drawablePadding="30dp"
+                    android:background="@android:color/holo_red_dark"
+                    android:textColor="@android:color/white"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="20dp"
+                    android:drawableLeft="@android:drawable/ic_menu_delete"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </android.support.v7.widget.CardView>
+
+
+
+
+
+</ScrollView>

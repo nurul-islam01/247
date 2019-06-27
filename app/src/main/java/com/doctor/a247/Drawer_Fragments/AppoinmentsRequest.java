@@ -1,0 +1,166 @@
+package com.doctor.a247.Drawer_Fragments;
+
+import android.app.Activity;
+import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
+import android.support.annotation.NonNull;
+import android.support.annotation.Nullable;
+import android.support.design.widget.Snackbar;
+import android.support.v4.app.Fragment;
+import android.support.v4.view.MenuItemCompat;
+import android.support.v7.widget.CardView;
+import android.support.v7.widget.RecyclerView;
+import android.support.v7.widget.SearchView;
+import android.text.TextUtils;
+import android.util.Log;
+import android.view.LayoutInflater;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
+import android.view.View;
+import android.view.ViewGroup;
+import android.view.inputmethod.EditorInfo;
+
+import com.doctor.a247.A247;
+import com.doctor.a247.R;
+import com.doctor.a247.activity.MainActivity;
+import com.doctor.a247.activity.Registration;
+import com.doctor.a247.adapter.AppointmentRequestAdapter;
+import com.doctor.a247.model.Request;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
+import com.google.firebase.database.ValueEventListener;
+
+
+import java.util.ArrayList;
+
+
+public class AppoinmentsRequest extends Fragment implements SearchView.OnQueryTextListener {
+
+    private static final String TAG = AppoinmentsRequest.class.getSimpleName();
+
+    private Context context;
+
+    private RecyclerView allRequestRV;
+
+    private ArrayList<Request> appoinmenRequestList = new ArrayList<Request>();
+    private AppointmentRequestAdapter adapter;
+    private CardView noRequestCV;
+
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View v = inflater.inflate(R.layout.fragment_appointments_request, container, false);
+
+        Snackbar.make(((Activity)context).findViewById(android.R.id.content), "Welcome Sir", Snackbar.LENGTH_LONG);
+
+        allRequestRV = v.findViewById(R.id.allRequestRV);
+        noRequestCV = v.findViewById(R.id.noRequestCV);
+
+        A247.request().addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(@NonNull DataSnapshot dataSnapshot) {
+                if (dataSnapshot != null){
+                    appoinmenRequestList = new ArrayList<Request>();
+                    try {
+                        for (DataSnapshot d: dataSnapshot.getChildren()){
+                            Request request = d.getValue(Request.class);
+                            if (TextUtils.equals(request.getDoctorId(), A247.getUserId())){
+                                appoinmenRequestList.add(request);
+                            }
+
+                        }
+
+                        if (appoinmenRequestList.size() <=0){
+                            noRequestCV.setVisibility(View.VISIBLE);
+                            allRequestRV.setVisibility(View.GONE);
+                        }else {
+                            adapter = new AppointmentRequestAdapter(getActivity(), appoinmenRequestList);
+                            allRequestRV.setAdapter(adapter);
+                            noRequestCV.setVisibility(View.GONE);
+                            allRequestRV.setVisibility(View.VISIBLE);
+                        }
+                    }catch (Exception e){
+                        Log.i(TAG, "onDataChange: "+e.getMessage());
+                    }
+                }
+            }
+
+            @Override
+            public void onCancelled(@NonNull DatabaseError databaseError) {
+
+            }
+        });
+        return v;
+    }
+
+
+    @Override
+    public void onAttach(Context context_) {
+        super.onAttach(context_);
+        context = context_ = getActivity();
+    }
+
+
+    @Override
+    public void onActivityCreated(@Nullable Bundle savedInstanceState) {
+        super.onActivityCreated(savedInstanceState);
+        setHasOptionsMenu(true);
+    }
+
+    @Override
+    public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
+        super.onCreateOptionsMenu(menu, inflater);
+        inflater.inflate(R.menu.main_option_menu, menu);
+        MenuItem item = menu.findItem(R.id.action_search);
+        SearchView sv = new SearchView(((MainActivity) getActivity()).getSupportActionBar().getThemedContext());
+        MenuItemCompat.setShowAsAction(item, MenuItemCompat.SHOW_AS_ACTION_COLLAPSE_ACTION_VIEW | MenuItemCompat.SHOW_AS_ACTION_IF_ROOM);
+        MenuItemCompat.setActionView(item, sv);
+        sv.setImeOptions(EditorInfo.IME_ACTION_DONE);
+        sv.setOnQueryTextListener( this);
+        sv.setIconifiedByDefault(false);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+
+        switch (item.getItemId()){
+            case R.id.logout:
+                A247.getFirebaseAuth().signOut();
+                startActivity(new Intent(context, Registration.class));
+                getActivity().finish();
+                break;
+        }
+
+        return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onDetach() {
+        super.onDetach();
+    }
+
+    @Override
+    public boolean onQueryTextSubmit(String s) {
+        return false;
+    }
+
+    @Override
+    public boolean onQueryTextChange(String s) {
+        try {
+            adapter.getFilter().filter(s);
+        }catch (Exception e){
+            e.printStackTrace();
+        }
+        return false;
+    }
+}

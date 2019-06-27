@@ -1,0 +1,617 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12d0a41147f5c6bb53b300d736947779/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:design:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1c4948dae8a3d6021f77232391e42157/AndroidManifest.xml:17:1-24:12
+MERGED from [com.hbb20:ccp:2.2.7] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/51ed506a263c48f0ea31376fa93e239c/AndroidManifest.xml:2:1-17:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/0b9810b54acc43d3b03f9502baacdcc4/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:17:1-42:12
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:15:1-36:12
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:17:1-37:12
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:15:1-37:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/a4968eebcf633972afca8d440f80732d/AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/35392fc5577e522524bb656241b01e88/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/771f7132e382824c1f4aa6c1333cf9a5/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/48c04c82483336c6bffce223046832a8/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6ebd0ff5057a7118c3afa77e33ac41c4/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:17:1-36:12
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:17:1-59:12
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/00288015c4b76a542b09bc55ca837d1d/AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/afe960e29c5b949535ada36de0cde793/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78b42e7adb3c39307ad905d68d2b4bd8/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:17:1-55:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/46ef15aaafd6504f2718f51f8e78f021/AndroidManifest.xml:17:1-25:12
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:17:1-40:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7526f77bf83a45e50591956417b8a399/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:17:1-30:12
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ce8ea5125062a47058adb23bb86454b9/AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/06c6c70347ef9351e138728c9c7276ec/AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/5cea67d9a7d7437ca84a2b1561ef256b/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/bd0fb436d1a59c2ab3d4ed5677441563/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e32244adde6e8a1fe086fcbf3df28e6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/3e756f8bf65bd78f9e460a2e682628af/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/08a2fa2e2bd9b265ac44cb003758fa27/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/379d197f9f4932967254f240fad5db4e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/df52d499484d46b0a50013768f7fcb7a/AndroidManifest.xml:2:1-16:12
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:2:1-14:12
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/bcd7430159637f158313e74062b10096/AndroidManifest.xml:2:1-12:12
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7c93e9b8bffd56ce770b04f44ded28bc/AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2ef08c3b5cf19c062346b638135e3c6e/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/0b607aa5f8d54af36d1c56a55103d356/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12145ad328eb9b56ac6428ebdab0d81d/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/13c61ddbd4144f6bcc7ba20aee06a652/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/d9c0bea8c3f4a6c9cdaf614dee8a33df/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/da6c70c6d9493357b4f8411f6c196717/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/10e762ec4639d27f166ab1d7f56d5498/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c3b08736cc1613acdf23e724746ab3a6/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c7ba52f31342b6b3637be3e31ef9cacf/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/690075828fec793499befcea92233c77/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78e5d2035c343c8a1b3f6cc5e7336f07/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8f8866ab84775e3da1f973ef4f91f1d3/AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7483edec8fac98de65a20b573d91d9fe/AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ef9cdfe98c6672442417bdf0f61d19eb/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2533735d7d2348073ab137f62beca8fa/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2db4972bf33a47d3931556ae3a09c655/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/708dccd424c5b4b511f09dd0e43abe74/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b27bbb23e7cfbb41d88ceac846269450/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:exifinterface:27.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9d7af1cf63ae59e720771ddd986f7eb2/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/646fbba5bfb7e464882d102a47006dc8/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2987a268ed38e6c41f9007393dae09a8/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b212901ae2996db46a4514a3ca984654/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c4119750d6ae3c75eb77ecd8d048da5d/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7d63fc29a84fc16ef6ea9af956138563/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f55c95a9b598abb60aa8f32ae779d543/AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6fa4dbb21f303a927c12d1a6f17c1edd/AndroidManifest.xml:2:1-7:12
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8e9064a315d3eef3707f01d10fcffac8/AndroidManifest.xml:2:1-13:12
+MERGED from [io.michaelrocks:libphonenumber-android:8.10.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/d63196a32c122a3c38726c3cb1b5804b/AndroidManifest.xml:2:1-11:12
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+	package
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:3:5-30
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:1-64:12
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:2:11-69
+uses-feature#android.hardware.camera
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:5:5-60
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:5:19-57
+uses-permission#android.permission.INTERNET
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:26:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:27:5-67
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:27:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:23:5-67
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:7:22-64
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:9:5-80
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:9:22-77
+application
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:11:5-62:19
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12d0a41147f5c6bb53b300d736947779/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12d0a41147f5c6bb53b300d736947779/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1c4948dae8a3d6021f77232391e42157/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1c4948dae8a3d6021f77232391e42157/AndroidManifest.xml:22:5-20
+MERGED from [com.hbb20:ccp:2.2.7] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/51ed506a263c48f0ea31376fa93e239c/AndroidManifest.xml:11:5-15:19
+MERGED from [com.hbb20:ccp:2.2.7] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/51ed506a263c48f0ea31376fa93e239c/AndroidManifest.xml:11:5-15:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:23:5-40:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:28:5-34:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:22:5-35:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:29:5-35:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/771f7132e382824c1f4aa6c1333cf9a5/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/771f7132e382824c1f4aa6c1333cf9a5/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/48c04c82483336c6bffce223046832a8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/48c04c82483336c6bffce223046832a8/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6ebd0ff5057a7118c3afa77e33ac41c4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6ebd0ff5057a7118c3afa77e33ac41c4/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:26:5-34:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:28:5-57:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/00288015c4b76a542b09bc55ca837d1d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/00288015c4b76a542b09bc55ca837d1d/AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/afe960e29c5b949535ada36de0cde793/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/afe960e29c5b949535ada36de0cde793/AndroidManifest.xml:7:5-20
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78b42e7adb3c39307ad905d68d2b4bd8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78b42e7adb3c39307ad905d68d2b4bd8/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:28:5-53:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/46ef15aaafd6504f2718f51f8e78f021/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/46ef15aaafd6504f2718f51f8e78f021/AndroidManifest.xml:22:5-23:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:28:5-38:19
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7526f77bf83a45e50591956417b8a399/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7526f77bf83a45e50591956417b8a399/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:27:5-28:19
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ce8ea5125062a47058adb23bb86454b9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ce8ea5125062a47058adb23bb86454b9/AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/06c6c70347ef9351e138728c9c7276ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/06c6c70347ef9351e138728c9c7276ec/AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:22:5-26:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/df52d499484d46b0a50013768f7fcb7a/AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/df52d499484d46b0a50013768f7fcb7a/AndroidManifest.xml:11:5-14:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:7:5-12:19
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:7:5-12:19
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7c93e9b8bffd56ce770b04f44ded28bc/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7c93e9b8bffd56ce770b04f44ded28bc/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8f8866ab84775e3da1f973ef4f91f1d3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8f8866ab84775e3da1f973ef4f91f1d3/AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7483edec8fac98de65a20b573d91d9fe/AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7483edec8fac98de65a20b573d91d9fe/AndroidManifest.xml:22:5-23:19
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8e9064a315d3eef3707f01d10fcffac8/AndroidManifest.xml:11:5-20
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8e9064a315d3eef3707f01d10fcffac8/AndroidManifest.xml:11:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8f8866ab84775e3da1f973ef4f91f1d3/AndroidManifest.xml:22:18-91
+	android:supportsRtl
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:19:9-35
+	android:label
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:16:9-41
+	android:hardwareAccelerated
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:14:9-44
+	android:roundIcon
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:18:9-54
+	android:largeHeap
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:17:9-33
+	android:icon
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:15:9-43
+	android:allowBackup
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:13:9-35
+	android:theme
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:20:9-40
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:12:9-29
+activity#com.doctor.a247.activity.ProfileEditActivity
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:21:9-66
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:21:19-63
+activity#com.doctor.a247.activity.MainActivity
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:theme
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:24:13-52
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:23:13-50
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:28:27-74
+service#com.doctor.a247.service.MessingService
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:32:9-36:19
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:32:18-56
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:33:13-35:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:34:17-78
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:34:25-75
+activity#com.doctor.a247.activity.Registration
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:38:9-40:55
+	android:theme
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:40:13-52
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:39:13-50
+activity#com.doctor.a247.activity.RawActivity
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:41:9-47:20
+	android:parentActivityName
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:43:13-64
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:42:13-49
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:44:13-46:58
+	android:value
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:46:17-55
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:45:17-63
+activity#com.doctor.a247.activity.SingleAppointment
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:48:9-54:20
+	android:parentActivityName
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:50:13-64
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:49:13-55
+activity#com.doctor.a247.activity.PatientDetails
+ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:55:9-61:20
+	android:parentActivityName
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:57:13-64
+	android:name
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml:56:13-52
+uses-sdk
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12d0a41147f5c6bb53b300d736947779/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:2.0.0-alpha4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12d0a41147f5c6bb53b300d736947779/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1c4948dae8a3d6021f77232391e42157/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1c4948dae8a3d6021f77232391e42157/AndroidManifest.xml:20:5-44
+MERGED from [com.hbb20:ccp:2.2.7] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/51ed506a263c48f0ea31376fa93e239c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.hbb20:ccp:2.2.7] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/51ed506a263c48f0ea31376fa93e239c/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/0b9810b54acc43d3b03f9502baacdcc4/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/0b9810b54acc43d3b03f9502baacdcc4/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:21:5-44
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:19:5-21:41
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/a4968eebcf633972afca8d440f80732d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/a4968eebcf633972afca8d440f80732d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/35392fc5577e522524bb656241b01e88/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-flags:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/35392fc5577e522524bb656241b01e88/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/771f7132e382824c1f4aa6c1333cf9a5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/771f7132e382824c1f4aa6c1333cf9a5/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/48c04c82483336c6bffce223046832a8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-core:16.0.8] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/48c04c82483336c6bffce223046832a8/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6ebd0ff5057a7118c3afa77e33ac41c4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-analytics:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6ebd0ff5057a7118c3afa77e33ac41c4/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/00288015c4b76a542b09bc55ca837d1d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-iid-interop:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/00288015c4b76a542b09bc55ca837d1d/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:6:5-8:41
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/afe960e29c5b949535ada36de0cde793/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/afe960e29c5b949535ada36de0cde793/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78b42e7adb3c39307ad905d68d2b4bd8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-measurement-connector:17.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78b42e7adb3c39307ad905d68d2b4bd8/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/46ef15aaafd6504f2718f51f8e78f021/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/46ef15aaafd6504f2718f51f8e78f021/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7526f77bf83a45e50591956417b8a399/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7526f77bf83a45e50591956417b8a399/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ce8ea5125062a47058adb23bb86454b9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-measurement-base:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ce8ea5125062a47058adb23bb86454b9/AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/06c6c70347ef9351e138728c9c7276ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-ads-identifier:16.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/06c6c70347ef9351e138728c9c7276ec/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/5cea67d9a7d7437ca84a2b1561ef256b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/5cea67d9a7d7437ca84a2b1561ef256b/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/bd0fb436d1a59c2ab3d4ed5677441563/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/bd0fb436d1a59c2ab3d4ed5677441563/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e32244adde6e8a1fe086fcbf3df28e6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e32244adde6e8a1fe086fcbf3df28e6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/3e756f8bf65bd78f9e460a2e682628af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/3e756f8bf65bd78f9e460a2e682628af/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/08a2fa2e2bd9b265ac44cb003758fa27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/08a2fa2e2bd9b265ac44cb003758fa27/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/379d197f9f4932967254f240fad5db4e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/379d197f9f4932967254f240fad5db4e/AndroidManifest.xml:20:5-44
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/df52d499484d46b0a50013768f7fcb7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.MikeOrtiz:TouchImageView:1.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/df52d499484d46b0a50013768f7fcb7a/AndroidManifest.xml:7:5-9:41
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:5:5-44
+MERGED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:5:5-44
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/bcd7430159637f158313e74062b10096/AndroidManifest.xml:8:5-10:41
+MERGED from [com.kyleduo.switchbutton:library:2.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/bcd7430159637f158313e74062b10096/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7c93e9b8bffd56ce770b04f44ded28bc/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:3.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7c93e9b8bffd56ce770b04f44ded28bc/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2ef08c3b5cf19c062346b638135e3c6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2ef08c3b5cf19c062346b638135e3c6e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/0b607aa5f8d54af36d1c56a55103d356/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/0b607aa5f8d54af36d1c56a55103d356/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12145ad328eb9b56ac6428ebdab0d81d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/12145ad328eb9b56ac6428ebdab0d81d/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/13c61ddbd4144f6bcc7ba20aee06a652/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/13c61ddbd4144f6bcc7ba20aee06a652/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/d9c0bea8c3f4a6c9cdaf614dee8a33df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/d9c0bea8c3f4a6c9cdaf614dee8a33df/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/da6c70c6d9493357b4f8411f6c196717/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/da6c70c6d9493357b4f8411f6c196717/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/10e762ec4639d27f166ab1d7f56d5498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/10e762ec4639d27f166ab1d7f56d5498/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c3b08736cc1613acdf23e724746ab3a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c3b08736cc1613acdf23e724746ab3a6/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c7ba52f31342b6b3637be3e31ef9cacf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c7ba52f31342b6b3637be3e31ef9cacf/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/690075828fec793499befcea92233c77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/690075828fec793499befcea92233c77/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78e5d2035c343c8a1b3f6cc5e7336f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/78e5d2035c343c8a1b3f6cc5e7336f07/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8f8866ab84775e3da1f973ef4f91f1d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8f8866ab84775e3da1f973ef4f91f1d3/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7483edec8fac98de65a20b573d91d9fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7483edec8fac98de65a20b573d91d9fe/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ef9cdfe98c6672442417bdf0f61d19eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ef9cdfe98c6672442417bdf0f61d19eb/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2533735d7d2348073ab137f62beca8fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2533735d7d2348073ab137f62beca8fa/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2db4972bf33a47d3931556ae3a09c655/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2db4972bf33a47d3931556ae3a09c655/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/708dccd424c5b4b511f09dd0e43abe74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/708dccd424c5b4b511f09dd0e43abe74/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b27bbb23e7cfbb41d88ceac846269450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b27bbb23e7cfbb41d88ceac846269450/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9d7af1cf63ae59e720771ddd986f7eb2/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:exifinterface:27.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9d7af1cf63ae59e720771ddd986f7eb2/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/646fbba5bfb7e464882d102a47006dc8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/646fbba5bfb7e464882d102a47006dc8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2987a268ed38e6c41f9007393dae09a8/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/2987a268ed38e6c41f9007393dae09a8/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b212901ae2996db46a4514a3ca984654/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b212901ae2996db46a4514a3ca984654/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c4119750d6ae3c75eb77ecd8d048da5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c4119750d6ae3c75eb77ecd8d048da5d/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7d63fc29a84fc16ef6ea9af956138563/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/7d63fc29a84fc16ef6ea9af956138563/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f55c95a9b598abb60aa8f32ae779d543/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f55c95a9b598abb60aa8f32ae779d543/AndroidManifest.xml:20:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6fa4dbb21f303a927c12d1a6f17c1edd/AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database-collection:16.0.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/6fa4dbb21f303a927c12d1a6f17c1edd/AndroidManifest.xml:5:5-44
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8e9064a315d3eef3707f01d10fcffac8/AndroidManifest.xml:7:5-9:41
+MERGED from [com.futuremind.recyclerfastscroll:fastscroll:0.2.5] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/8e9064a315d3eef3707f01d10fcffac8/AndroidManifest.xml:7:5-9:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.10.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/d63196a32c122a3c38726c3cb1b5804b/AndroidManifest.xml:7:5-9:41
+MERGED from [io.michaelrocks:libphonenumber-android:8.10.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/d63196a32c122a3c38726c3cb1b5804b/AndroidManifest.xml:7:5-9:41
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		ADDED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+		INJECTED from /home/nurul-islam/AndroidStudioProjects/247/app/src/main/AndroidManifest.xml
+activity#com.google.firebase.auth.internal.FederatedSignInActivity
+ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:24:9-31:50
+	android:excludeFromRecents
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:26:13-46
+	android:launchMode
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:28:13-44
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:27:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:29:13-102
+	android:theme
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:30:13-72
+	tools:replace
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:31:13-47
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:25:13-85
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:33:9-39:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:29:9-33:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:30:9-34:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:27:9-33:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:29:9-35:19
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:29:9-35:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:34:13-84
+meta-data#com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar
+ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:36:13-38:85
+	android:value
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:38:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-auth:16.2.1] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b54e16848e5283be72996c1b77beb19a/AndroidManifest.xml:37:17-109
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:25:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:26:5-79
+MERGED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:26:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:23:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:24:5-79
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:24:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:25:22-76
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/1d5316942b17159d390699025bd2968b/AndroidManifest.xml:31:17-109
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:28:9-34:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:30:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:17.3.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/93f39d21b6214245cba01251c78ba06d/AndroidManifest.xml:29:13-82
+meta-data#com.google.firebase.components:com.google.firebase.storage.StorageRegistrar
+ADDED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:31:13-33:85
+	android:value
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:33:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-storage:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ade4066b3e3def0ef797d9d9a3bceb32/AndroidManifest.xml:32:17-107
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:24:5-68
+MERGED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:24:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:25:5-68
+MERGED from [com.google.android.gms:play-services-measurement-sdk-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f3ece0e9122eaa7aa7a7af835e616951/AndroidManifest.xml:25:5-68
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:24:22-65
+meta-data#com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar
+ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:30:13-32:85
+	android:value
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:32:17-82
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement-api:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/ab96c64768dfc713c34d6152d3024a97/AndroidManifest.xml:31:17-139
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:26:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:26:22-79
+meta-data#com.google.firebase.components:com.google.firebase.iid.Registrar
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:33:17-96
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:37:9-44:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:39:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:40:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:38:13-78
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:41:13-43:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:42:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:42:25-78
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:50:9-56:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:52:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:51:13-77
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:53:13-55:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:53:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:54:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:17.0.4] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/abd7e0eeddd3d78166f84326fd95a834/AndroidManifest.xml:54:25-77
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/e5b4ae9a02f520f1b18d135f0248b3e5/AndroidManifest.xml:24:13-79
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:14:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:16.1.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/c5c242e003f66f99291a1a31ca5c2466/AndroidManifest.xml:13:13-77
+uses-permission#com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:26:5-110
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:26:5-110
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:26:22-107
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:29:9-33:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:31:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:30:13-85
+receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:34:9-42:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:29:9-37:20
+MERGED from [com.google.android.gms:play-services-measurement-impl:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/9268a237ed915fb14d73518e1f1bd651/AndroidManifest.xml:29:9-37:20
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:36:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:37:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:38:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:35:13-100
+intent-filter#action:name:com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:39:13-41:29
+action#com.android.vending.INSTALL_REFERRER
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:40:17-79
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:40:25-76
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:44:9-47:40
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:46:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:45:13-84
+service#com.google.android.gms.measurement.AppMeasurementJobService
+ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:48:9-52:72
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:50:13-35
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:51:13-37
+	android:permission
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:52:13-69
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:16.4.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/4b8546475cf9bed9aa981027c5bd4a00/AndroidManifest.xml:49:13-87
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:23:9-25:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:16.2.0] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/b2115c6765468e67a0af3a7d592e0904/AndroidManifest.xml:24:13-58
+provider#com.squareup.picasso.PicassoProvider
+ADDED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:8:9-11:40
+	android:authorities
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:10:13-72
+	android:exported
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:11:13-37
+	android:name
+		ADDED from [com.squareup.picasso:picasso:2.71828] /home/nurul-islam/.gradle/caches/transforms-2/files-2.1/f6a5cc1a95bd88ac8043da30b4cf11cd/AndroidManifest.xml:9:13-64

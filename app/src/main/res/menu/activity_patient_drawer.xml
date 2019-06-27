@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/alldoctor"
+            android:icon="@drawable/doctors_icon"
+            android:title="All Doctors" />
+        <item
+            android:id="@+id/appoinments"
+            android:icon="@drawable/ic_appointment"
+            android:title="Appointments" />
+    </group>
+
+    <item android:title="Patient">
+        <menu>
+
+            <item
+                android:id="@+id/allMedicine"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="All Medicine" />
+
+            <item
+                android:id="@+id/allPescribe"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="All Pescribe" />
+
+            <item
+                android:id="@+id/patientProfile"
+                android:icon="@drawable/ic_person_black_24dp"
+                android:title="Profile" />
+
+        </menu>
+    </item>
+
+</menu>

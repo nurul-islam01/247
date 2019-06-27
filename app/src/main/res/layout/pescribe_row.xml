@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="300dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="6dp"
+    android:layout_margin="4dp"
+    android:padding="5dp"
+    android:layout_gravity="center_horizontal"
+    android:elevation="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+       <com.ortiz.touchview.TouchImageView
+           android:id="@+id/pescribeIV"
+           android:src="@drawable/medicine_icon"
+           android:layout_width="match_parent"
+           android:layout_gravity="center_horizontal"
+           android:layout_height="match_parent" />
+    </LinearLayout>
+</android.support.v7.widget.CardView>

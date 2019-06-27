@@ -1,0 +1,73 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    signingConfigs {
+        debug {
+            storeFile file('/home/nurul-islam/AndroidStudioProjects/A247/a247.jks')
+            storePassword 'a247247247'
+            keyPassword 'a247247247'
+            keyAlias = 'key0'
+        }
+        config {
+            storeFile file('/home/nurul-islam/AndroidStudioProjects/A247/a247.jks')
+            storePassword 'a247247247'
+            keyAlias = 'key0'
+            keyPassword 'a247247247'
+        }
+    }
+
+    compileSdkVersion 28
+    defaultConfig {
+        applicationId "com.doctor.a247"
+        minSdkVersion 19
+        targetSdkVersion 28
+        versionCode 2
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+            debuggable = false
+        }
+        debug {
+            debuggable = true
+            signingConfig signingConfigs.config
+        }
+    }
+    buildToolsVersion = '28.0.3'
+    compileOptions {
+        sourceCompatibility = '1.8'
+        targetCompatibility = '1.8'
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:28.0.0'
+    implementation 'com.android.support.constraint:constraint-layout:2.0.0-alpha4'
+    implementation 'com.android.support:support-v4:28.0.0'
+    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-core-utils:28.0.0'
+    implementation 'com.google.firebase:firebase-core:16.0.8'
+    implementation 'com.google.firebase:firebase-auth:16.2.1'
+    implementation 'com.google.firebase:firebase-database:16.1.0'
+    implementation 'com.google.firebase:firebase-storage:16.1.0'
+    implementation 'com.google.firebase:firebase-core:16.0.8'
+    implementation 'com.github.MikeOrtiz:TouchImageView:1.4.0'
+    implementation 'com.hbb20:ccp:2.2.7'
+    implementation 'com.google.firebase:firebase-messaging:17.3.4'
+    testImplementation 'junit:junit:4.13-beta-2'
+    implementation 'com.squareup.picasso:picasso:2.71828'
+    implementation 'com.google.android.gms:play-services-base:16.1.0'
+    implementation group: 'com.google.android.gms', name: 'play-services-auth-api-phone', version: '16.0.0'
+    implementation 'com.kyleduo.switchbutton:library:2.0.0'
+    implementation 'de.hdodenhof:circleimageview:3.0.0'
+    androidTestImplementation 'com.android.support.test:runner:1.0.2'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
+}
+apply plugin: 'com.google.gms.google-services'

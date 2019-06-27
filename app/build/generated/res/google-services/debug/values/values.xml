@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">986136559217-kubom6kke8kgn8jflpfknu7iudt6h8ne.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://care-b6b3a.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">986136559217</string>
+    <string name="google_api_key" translatable="false">AIzaSyA1pHOG7avLCP7aBpyvzBZ5CJmPSI3KkqI</string>
+    <string name="google_app_id" translatable="false">1:986136559217:android:782ba0c63ec2bf4e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyA1pHOG7avLCP7aBpyvzBZ5CJmPSI3KkqI</string>
+    <string name="google_storage_bucket" translatable="false">care-b6b3a.appspot.com</string>
+    <string name="project_id" translatable="false">care-b6b3a</string>
+</resources>

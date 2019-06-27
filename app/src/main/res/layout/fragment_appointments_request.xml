@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Drawer_Fragments.AppoinmentsRequest">
+
+   <android.support.v7.widget.CardView
+       android:id="@+id/noRequestCV"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@color/colorAccent"
+       android:padding="20dp"
+       app:cardCornerRadius="6dp"
+       app:cardElevation="6dp"
+       android:layout_gravity="center"
+       android:layout_marginTop="100dp"
+       android:visibility="gone"
+       app:cardBackgroundColor="@color/colorAccent">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:padding="20dp"
+          android:text="No Request"
+          android:textColor="@android:color/white" />
+   </android.support.v7.widget.CardView>
+
+   <android.support.v7.widget.RecyclerView
+       android:id="@+id/allRequestRV"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:background="@color/black_overlay"
+       android:padding="5dp"
+       tools:listitem="@layout/appointment_request_row"
+       app:layoutManager="android.support.v7.widget.LinearLayoutManager"/>
+
+</LinearLayout>
